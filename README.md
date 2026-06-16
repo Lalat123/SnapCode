@@ -1,40 +1,16 @@
-# SnapCode
+# React + Vite
 
-SnapCode is a lightning-fast, beautifully designed, online compiler and execution sandbox built for speed. It allows users to write, compile, and execute code directly in their browser.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
-- **Multi-language Support:** Write and execute code in Python, C++, Java, and JavaScript.
-- **Custom Inputs:** Pipe custom `stdin` directly into your programs to test specific edge cases.
-- **Execution Metrics:** Get instant feedback on execution time and memory consumption.
-- **Stunning UI:** Built with an aesthetically pleasing dark-mode layout featuring micro-animations, customizable editor themes, font sizing, and robust code styling.
-- **Save Templates:** Save your customized competitive programming boilerplate code for one-click recovery.
+Currently, two official plugins are available:
 
-## Tech Stack
-- **Frontend:** React.js, Vite, Monaco Editor (VS Code core)
-- **Backend:** Node.js, Express.js
-- **Execution Engine:** Asynchronous native process execution (`child_process.exec`) measuring exact metrics.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## How to Run Locally
+## React Compiler
 
-### Prerequisites
-- [Node.js](https://nodejs.org/) installed
-- Python, GCC (`g++`), and Java (`javac` / `java`) installed and configured in your system PATH for full language support.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-### 1. Start the Backend
-Open a terminal in the `backend` folder and run:
-```bash
-npm install
-npm start
-```
-The backend engine will start on port `5000`.
+## Expanding the ESLint configuration
 
-### 2. Start the Frontend
-Open a new terminal in the `frontend` folder and run:
-```bash
-npm install
-npm run dev
-```
-The frontend UI will start. Open `http://localhost:5173/` in your browser.
-
-## License
-MIT
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
