@@ -35,6 +35,15 @@ SnapCode/
 ```
 
 ## 🛠️ Technologies Used
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+
 - **JavaScript/Node.js** – Core programming language for logic and backend processing.
 - **Express.js** – Lightweight web framework used for backend routing and API handling.
 - **React.js & Vite** – For building the lightning-fast, modular user interface.
@@ -101,15 +110,3 @@ While SnapCode currently runs as a blazing-fast local sandbox, several enhanceme
 
 ## License
 This project is licensed under the MIT License.
-
-### Screenshots
-
-![Login Page](./images/Page1.jpg)
-
-
-
-
-
-
-
-![Code comiler Page](./images/Page2.jpg)
